@@ -7,7 +7,7 @@ def resume_parser(state):
     
     return {
         **state,
-        "resume_text":resume_text.strip(),
+        "resume_txt":resume_text.strip(),
         "stage": "parsed"
     }
 
